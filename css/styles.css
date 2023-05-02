@@ -1,0 +1,210 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+.big-heading {
+    font-family: 'Delicious Handrawn', cursive;
+    color: #E49393;
+
+    /* font-size: 6rem; */
+    font-size: 9.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container-title {
+    background-image: url("../images/blossoms-bg.jpg");
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;     
+    padding: 5% 12%;
+}
+
+.title-text {
+    text-align: center;
+    text-shadow: 5px 5px 10px white;
+    margin: auto;
+}
+
+
+.title-image {
+    text-align: center;
+    margin: auto;
+}
+
+.container-fluid {
+    padding: 5% 12%;
+}
+
+.santa-helper {
+    /* border-radius: 100%; */
+    width: 65%;
+}
+
+.santa-helper-small {
+    border-radius: 100%;
+    width: 7%;
+}
+
+.container-gifts {
+    padding: 5% 12%;
+}
+
+.gift-box {
+    text-align: center;
+    padding-bottom: 75px;
+    /* transition: transform .3s; */
+}
+
+.gift-box-fade {
+    opacity: 50%;
+}
+
+/* .gift-box:hover {
+    transform: scale(1.25);
+} */
+
+.gift-image {
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+.gift-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color:#394867;
+}
+
+
+.gift-title-fulfilled {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color:black;
+}
+
+/* Footer placement confguration: #page-container, #content-wrap, .container-footer */
+/* https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ */
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 5%;    /* Footer height */
+}
+
+.container-footer {
+    background-color: #E49393;
+    padding: 1% 12%;
+    color: white;
+    text-align: center;
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* height: 6rem;            Footer height */
+}
+
+.footer-text {
+    font-size: 1.35rem;
+}
+
+.footer-text-pages {
+    font-size: 0.85rem;
+}
+
+.footer-by-text {
+    font-family: 'Dancing Script', cursive;
+}
+
+.copyright {
+    margin-bottom: 0;
+}
+
+.container-main {
+    padding: 5% 12%;
+}
+
+.header-pages {
+        /* background-image: linear-gradient(#12cad6, #e4f9ff); */
+    padding: 1% 12%;
+    text-align: center;
+}
+
+.gift-page-title {
+    font-weight: bold;
+    color:#394867;
+}
+
+.gift-page-image {
+    width: 75%;
+}
+
+.gift-page-description {
+    margin-top: 3%;
+}
+
+.purchase-button {
+    margin-top: 15px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.turkey-note {
+    font-style: italic;
+    color: hsl(349, 97%, 48%);
+}
+
+
+@media (max-width: 991px) {
+    .container-title {
+        text-align: center;
+    }
+
+    .big-heading {
+        text-align: center;
+        font-size: 3.25rem;
+    }
+
+    .santa-helper {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .purchase-button {
+        margin-bottom: 75px;
+    }
+
+    .container-gifts {
+        margin-top: 10%;
+    }
+
+    .gift-page-image-box, .gift-page-description {
+    text-align: center;
+    margin-top: 0;
+    }
+
+    .header-pages {
+    padding: 3% 12%;
+    }
+
+    .santa-helper-small {
+    width: 15%;
+    }
+}
+
+
